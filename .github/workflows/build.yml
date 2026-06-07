@@ -47,6 +47,12 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew shadowJar
 
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ServerTools
+          path: build/libs/ServerTools.jar
+
       - name: Publish Release
         uses: softprops/action-gh-release@v2
         if: github.event_name != 'pull_request'
