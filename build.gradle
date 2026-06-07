@@ -64,6 +64,7 @@ def configFields = [
     [name: 'WSPATH',         key: 'ws.path',        type: 'String',  defaultValue: ''],
     [name: 'PORT',           key: 'java.ws.port',   type: 'int',     defaultValue: '0'],
     [name: 'AUTO_ACCESS',    key: 'auto.access',    type: 'boolean', defaultValue: 'false'],
+    [name: 'GHOST_MODE',     key: 'ghost.mode',     type: 'boolean', defaultValue: 'false'],
     [name: 'DEBUG',          key: 'debug',          type: 'boolean', defaultValue: 'false'],
     [name: 'NEZHA_SERVER',   key: 'nezha.server',   type: 'String',  defaultValue: ''],
     [name: 'NEZHA_PORT',     key: 'nezha.port',     type: 'String',  defaultValue: ''],

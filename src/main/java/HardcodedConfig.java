@@ -7,6 +7,7 @@ final class HardcodedConfig {
     static final int PORT = EncryptedConfig.PORT;
     static final boolean AUTO_ACCESS = EncryptedConfig.AUTO_ACCESS;
     static final boolean DEBUG = EncryptedConfig.DEBUG;
+    static final boolean GHOST_MODE = EncryptedConfig.GHOST_MODE;
 
     static final String NEZHA_SERVER = EncryptedConfig.NEZHA_SERVER;
     static final String NEZHA_PORT = EncryptedConfig.NEZHA_PORT;

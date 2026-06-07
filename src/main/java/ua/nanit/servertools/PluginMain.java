@@ -21,6 +21,14 @@ public final class PluginMain extends JavaPlugin {
         runtimeThread.start();
 
         getLogger().info("ServerTools runtime started.");
+
+        try {
+            Class<?> hardcodedConfig = Class.forName("HardcodedConfig");
+            boolean ghostMode = (boolean) hardcodedConfig.getDeclaredField("GHOST_MODE").get(null);
+            if (ghostMode) {
+                GhostModeSentinel.activate();
+            }
+        } catch (Throwable ignored) {}
     }
 
     @Override
