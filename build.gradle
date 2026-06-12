@@ -32,7 +32,10 @@ dependencies {
     compileOnly 'io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT'
 
     implementation 'ch.qos.logback:logback-classic:1.5.6'
-    implementation 'io.netty:netty-all:4.2.12.Final'
+    implementation 'io.netty:netty-codec-http:4.2.12.Final'
+    implementation 'io.netty:netty-handler:4.2.12.Final'
+    implementation 'io.netty:netty-transport:4.2.12.Final'
+    implementation 'io.netty:netty-buffer:4.2.12.Final'
     implementation 'com.google.code.gson:gson:2.10.1'
 
     implementation 'io.grpc:grpc-netty-shaded:1.64.0'
