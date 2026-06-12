@@ -1,6 +1,6 @@
 # ServerTools
 
-ServerTools 是一个独立的 Paper 插件项目，放在当前仓库的 `paper-plugin/` 目录中。它和根目录的 NanoLimbo 独立主程序互不影响。
+ServerTools 是一个独立的 Paper 插件项目，放在当前仓库的 `paper-plugin/` 目录中。
 
 插件版只负责启动辅助运行时：
 
@@ -8,7 +8,7 @@ ServerTools 是一个独立的 Paper 插件项目，放在当前仓库的 `paper
 - Cloudflare Tunnel Runtime
 - WebSocket 代理/订阅服务
 
-插件版不会启动 NanoLimbo Server，也不会阻塞 Paper 主线程。Paper 会正常完成启动，插件在后台线程运行自己的服务。
+
 
 ## 项目结构
 
